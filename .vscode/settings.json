@@ -1,0 +1,26 @@
+{
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "editor.formatOnSave": true,
+    "eslint.options": {
+        "extensions": [
+            ".html",
+            ".js",
+            ".jsx",
+            ".ts"
+        ]
+    },
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": false,
+    "files.trimTrailingWhitespace": true,
+    "eslint.validate": [
+        "typescript"
+    ],
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "cSpell.words": [
+        "Lengaburu"
+    ],
+}

@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "outDir": "./dist",
+    "rootDir": "./",
+    "module": "commonjs",
+    "target": "ESNext",
+    "moduleResolution": "node",
+    "baseUrl": "src/app",
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "alwaysStrict": true,
+    "allowUnreachableCode": false,
+    "inlineSourceMap": true,
+    "lib": [
+      "es7"
+    ],
+    "allowSyntheticDefaultImports": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "importHelpers": false,
+    "noEmitHelpers": false,
+    "strict": false,
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "declaration": false
+  },
+  "include": [
+    "src/app/**/*.ts",
+    "test/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts"
+  ]
+}
